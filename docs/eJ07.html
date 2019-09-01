@@ -13089,7 +13089,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -13112,7 +13112,7 @@ div#notebook {
 <body>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
-
+        
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13726,7 +13726,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -13752,10 +13752,8 @@ During handling of the above exception, another exception occurred:
 
 
 
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-"
->
+<div class="output_text output_subarea ">
+<pre>&lt;Figure size 1000x500 with 1 Axes&gt;</pre>
 </div>
 
 </div>
@@ -13782,7 +13780,7 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">students_ix</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;Ethan&quot;</span><span class="p">]</span>
@@ -13798,7 +13796,7 @@ During handling of the above exception, another exception occurred:
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13827,7 +13825,7 @@ Name: Ethan, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">students_ix</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;Ethan&quot;</span><span class="p">:</span><span class="s2">&quot;Ian&quot;</span><span class="p">]</span>
@@ -13843,7 +13841,7 @@ Name: Ethan, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13936,7 +13934,7 @@ Name: Ethan, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">students_ix</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;Ethan&quot;</span><span class="p">,</span> <span class="s2">&quot;Height&quot;</span><span class="p">]</span>
@@ -13952,7 +13950,7 @@ Name: Ethan, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13977,7 +13975,7 @@ Name: Ethan, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">students_ix</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;Ethan&quot;</span><span class="p">:</span><span class="s2">&quot;Ian&quot;</span><span class="p">,</span> <span class="s2">&quot;Weight&quot;</span><span class="p">:</span><span class="s2">&quot;Height&quot;</span><span class="p">]</span>
@@ -13993,7 +13991,7 @@ Name: Ethan, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -14079,7 +14077,7 @@ Name: Ethan, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&quot;Anne&quot;</span><span class="p">,</span>    <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
@@ -14110,7 +14108,7 @@ Name: Ethan, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">marks</span><span class="p">)</span>
@@ -14129,7 +14127,7 @@ Name: Ethan, dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[13]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -14290,7 +14288,7 @@ Name: Ethan, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">subj</span> <span class="ow">in</span> <span class="n">marks_ix</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
@@ -14335,7 +14333,7 @@ Arts -&gt; 4.55
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Kate&#39;s marks:&quot;</span><span class="p">)</span>
@@ -14384,7 +14382,7 @@ The average mark: 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">student</span> <span class="ow">in</span> <span class="n">marks_ix</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
@@ -14437,7 +14435,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_ix</span>
@@ -14453,7 +14451,7 @@ Kate -&gt; 4.33
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[17]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14614,7 +14612,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_tr</span> <span class="o">=</span> <span class="n">marks_ix</span><span class="o">.</span><span class="n">T</span>
@@ -14635,7 +14633,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_tr</span>
@@ -14651,7 +14649,7 @@ Kate -&gt; 4.33
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -14793,7 +14791,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_ix</span><span class="o">.</span><span class="n">index</span>
@@ -14809,7 +14807,7 @@ Kate -&gt; 4.33
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[20]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14828,10 +14826,51 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_ix</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[20]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Index([&#39;Computers&#39;, &#39;English&#39;, &#39;Maths&#39;, &#39;Physics&#39;, &#39;Chemistry&#39;, &#39;Arts&#39;], dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>while in the transposed table we have:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_tr</span><span class="o">.</span><span class="n">index</span>
 </pre></div>
 
     </div>
@@ -14859,50 +14898,9 @@ Kate -&gt; 4.33
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>while in the transposed table we have:</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_tr</span><span class="o">.</span><span class="n">index</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[22]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Index([&#39;Computers&#39;, &#39;English&#39;, &#39;Maths&#39;, &#39;Physics&#39;, &#39;Chemistry&#39;, &#39;Arts&#39;], dtype=&#39;object&#39;)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_tr</span><span class="o">.</span><span class="n">columns</span>
@@ -14918,7 +14916,7 @@ Kate -&gt; 4.33
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -14945,7 +14943,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">subj</span> <span class="ow">in</span> <span class="n">marks_ix</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
@@ -14990,7 +14988,7 @@ Arts -&gt; 4.55
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">student</span> <span class="ow">in</span> <span class="n">marks_tr</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
@@ -15047,7 +15045,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -15243,7 +15241,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">spendings</span> <span class="o">=</span> <span class="p">[</span>
@@ -15466,7 +15464,7 @@ Kate -&gt; 4.33
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">food</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span>
@@ -15603,7 +15601,11 @@ Kate -&gt; 4.33
 
 </div>
     </div>
-  </div>
+    <div class="container">
+        <span class="pull-left" style="margin:5px">&copy; 2019 <a href="https://petlja.org">Petlja.org</a> 
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; vertical-align: text-bottom" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+        </div>
+    </div>
 </body>
 
  
