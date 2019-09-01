@@ -1,0 +1,26 @@
+﻿River,Length,Countries,Mouth,Via
+Western Dvina,1020,"""Belarus; Latvia; Russia; Lithuania; Estonia""",Gulf of Riga,(directly)
+Elbe–Vltava,1252,"""Czech Republic; Germany""",North Sea,(directly)
+Elbe,1091,"""Czech Republic; Germany""",North Sea,(directly)
+Loire,1013,"""France""",Atlantic Ocean,(directly)
+Danube,2860,"""Germany; Austria; Slovakia; Hungary; Croatia; Serbia; Romania; Bulgaria; Moldova;Ukraine""",Black Sea,(directly)
+Ural,2428,"""Kazakhstan; Russia""",Caspian Sea,(directly)
+Vistula,1047,"""Poland""",Baltic Sea,(directly)
+Volga,3692,"""Russia""",Caspian Sea,(directly)
+Pechora,1809,"""Russia""",Barents Sea,(directly)
+Kama,1805,"""Russia""",Caspian Sea,Volga
+Oka,1500,"""Russia""",Caspian Sea,Volga
+Vyatka,1314,"""Russia""",Caspian Sea,Volga
+Vychegda River,1130,"""Russia""",White Sea,(directly)
+Vychegda,1130,"""Russia""",White Sea,Northern Dvina
+Dnieper,2290,"""Russia; Belarus; Ukraine""",Black Sea,(directly)
+Don,1950,"""Russia; Ukraine""",Sea of Azov,(directly)
+Desna,1130,"""Russia; Ukraine""",Black Sea,Dnieper
+Sava,990,"""Slovenia; Croatia; Bosnia-Herzegovina; Serbia""",Black Sea,Danube
+Tagus,1007,"""Spain; Portugal""",Atlantic Ocean,(directly)
+Rhine,1236,"""Switzerland; Liechtenstein; Austria; Germany; France; Netherlands""",North Sea,(directly)
+Aras,1072,"""Turkey; Armenia; Iran; Azerbaijan""",Caspian Sea,Kura
+Belaya,1430,"""Turkey; Georgia; Azerbaijan""",Caspian Sea,Volga
+Kura,1515,"""Turkey;Georgia;Azerbaijan""",Caspian Sea,(directly)
+Donets,1050,"""Ukraine""",Sea of Azov,Don
+Dniester,1362,"""Ukraine; Moldova""",Black Sea,(directly)
