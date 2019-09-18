@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>!Index</title>
+<title>eJ00</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,21 +13077,81 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-Data-Science">Introduction to Data Science<a class="anchor-link" href="#Introduction-to-Data-Science">&#182;</a></h1><p>This is an <em>Introduction to Data Science</em>. In ten lectures we overview and demonstrate a set of basic skills that everyone needs in order to visualize data and perform some fundamental data analysis. The idea of this handbook is to demonstrate how, with a little bit of <em>Python</em> programming, from a conveniently represented data you can get a new quality -- information. This handbook is written in <em>Jupyter</em>, which is an interactive environment ideal for experimenting with snippets of Python code.</p>
-<p>Although our programming language of choice is Python, this handbook is <em>not</em> meant to teach Python programming. The goal of this hanbook is to demonstrate basic skills needed for data visualisation and data analysis, while the programming language is just a tool that makes it possible for us to formulate out ideas precisely and apply them on concrete examples. Python is a modern programming language that is constantly being upgraded and regularly maintained, and which is free to use. That makes it a convenient choice.</p>
-<ul>
-<li><a href="eJ00.html">0. Running Jupyter notebooks</a></li>
-<li><a href="eJ01.html">1. Introduction to Jupyter</a></li>
-<li><a href="eJ02.html">2. Sequences of data and line charts</a></li>
-<li><a href="eJ03.html">3. Bar charts and colors</a></li>
-<li><a href="eJ04.html">4. The average and the median of a sequence of numbers</a></li>
-<li><a href="eJ05.html">5. Frequency analysis and pie charts</a></li>
-<li><a href="eJ06.html">6. Representing data as tables</a></li>
-<li><a href="eJ07.html">7. Indexing and transposing a table</a></li>
-<li><a href="eJ08.html">8. Modifying tables and writing to files</a></li>
-<li><a href="eJ09.html">9. Sorting, filtering and frequency analysis</a></li>
-<li><a href="eJ10.html">10. Jupyter and Excel</a></li>
-</ul>
+<h1 id="0.-Running-Jupyter-notebooks">0. Running Jupyter notebooks<a class="anchor-link" href="#0.-Running-Jupyter-notebooks">&#182;</a></h1><p>In this short lecture we show three ways to (download and) run Jupiter notebooks that accompany this course. This gives you the opportunity to go through the interactive version of the lectures and experiment with the examples we discuss in the course.</p>
+<p>We shall cover three possibilities to run Jupiter notebooks of this course:</p>
+<ol>
+<li>using the <em>Binder</em> service available at <em>mybinder.org</em> (this is convenient because there is no need to install new software on your computer or to create an account; the downside is that the changes you make while experimenting with the notebooks will <em>not</em> be saved);</li>
+<li>using the <em>Azure Notebooks</em> cloud service (this is convenient because there is no need to install new software on your computer; however, you are requested to create a free Microsoft account, but in return all the changes you make to the notebooks will be saved within your Microsoft account); and</li>
+<li>locally, on your computer (requires the installation of Python and Jupyter).</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="0.1.-Running-Jupyter-notebooks-using-the-Binder-service">0.1. Running Jupyter notebooks using the <em>Binder</em> service<a class="anchor-link" href="#0.1.-Running-Jupyter-notebooks-using-the-Binder-service">&#182;</a></h2><p>The easiest way to run Jupyter notebooks that accompany this course is to click on the link below:</p>
+<p><a href="https://mybinder.org/v2/gh/Petlja/JupyterBookEng/master">https://mybinder.org/v2/gh/Petlja/JupyterBookEng/master</a></p>
+<p><img src="pics/inst01.jpg" alt="instalacija"></p>
+<p>The service will make a fresh copy of the Jupyter notebooks for you and it will prepare the environment in which the notebooks can be executed. All this takes some time, however:</p>
+<p><img src="pics/inst15.jpg" alt="instalacija"></p>
+<p>You will recognize that the preparation is over when your default web browser pops up and displays a page that looks like this:</p>
+<p><img src="pics/inst02.jpg" alt="instalacija"></p>
+<p>You can now click each of the links to run the notebook in a new tab. Switch to the tab that contains the notebook and execute it step by step.</p>
+<p>This approach is convenient because there is no need to install new software on your computer or to create an account; the downside is that the changes you make while experimenting with the notebooks will <em>not</em> be saved. And preparing a fresh environment might take some time.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="0.2.--Running-Jupyter-notebooks-using-the-Azure-Notebooks-cloud-service">0.2.  Running Jupyter notebooks using the <em>Azure Notebooks</em> cloud service<a class="anchor-link" href="#0.2.--Running-Jupyter-notebooks-using-the-Azure-Notebooks-cloud-service">&#182;</a></h2><p>Jupyter notebooks that accompany this course can be executed in a cloud service such as <em>Azure Notebooks</em>. This makes it possible for you to save the changes you made to the notebooks in the cloud. There is no need to install new software on your computer, but you are requested to create a free Microsoft account (unless you already have one).</p>
+<p><strong>Step 1.</strong> Click the following link:</p>
+<p><a href="https://notebooks.azure.com/">https://notebooks.azure.com/</a></p>
+<p>and create a (<em>free!</em>) account (unless you already have one).</p>
+<p><img src="pics/inst03.jpg" alt="instalacija"></p>
+<p><strong>Step 2.</strong> After you log into <em>Azure Notebooks</em> go to <em>My Projects</em></p>
+<p><img src="pics/inst05.jpg" alt="instalacija"></p>
+<p>and choose <em>Upload Github Repo</em>:</p>
+<p><img src="pics/inst07.jpg" alt="instalacija"></p>
+<p><strong>Step 3.</strong> In the form that opens up locate the <em>GitHub repository</em> field and enter <a href="https://github.com/Petlja/JupyterBookEng">https://github.com/Petlja/JupyterBookEng</a> (fill in the remaining fields in the form as you find convenient):</p>
+<p><img src="pics/inst08.jpg" alt="instalacija"></p>
+<p><strong>Step 4.</strong> Then click <em>Import</em>.</p>
+<p>The list of your projects will now show a new project that you can open and execute.</p>
+<p><img src="pics/inst09.jpg" alt="instalacija"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="0.3.-Running-Jupyter-notebooks-locally,-on-your-computer">0.3. Running Jupyter notebooks locally, on your computer<a class="anchor-link" href="#0.3.-Running-Jupyter-notebooks-locally,-on-your-computer">&#182;</a></h2><p>This is by far the most flexible way to run Jupyter notebooks, but in return it requires some preparations on your side.</p>
+<p><strong>Step 1.</strong> Install Pyhton (unless you already have a Python installation).</p>
+<p><strong>Step 2.</strong> Right-click on the following link</p>
+<p><a href="https://github.com/Petlja/JupyterBookEng/archive/master.zip">https://github.com/Petlja/JupyterBookEng/archive/master.zip</a></p>
+<p>to download the <code>master.zip</code> file. Create a new folder and unzip the file there.</p>
+<p><img src="pics/inst10.jpg" alt="Instalacija"></p>
+<p>Open a command window (<em>PowerShell</em>, say) within the folder:</p>
+<p><img src="pics/inst11.jpg" alt="Instalacija"></p>
+<p>and execute the following command:</p>
+
+<pre><code>pip3 install -r requirements.txt
+
+</code></pre>
+<p><img src="pics/inst12.jpg" alt="Instalacija"></p>
+<p>In the same command window enter</p>
+
+<pre><code>jupyter notebook
+
+</code></pre>
+<p>to start Jyputer:</p>
+<p><img src="pics/inst13.jpg" alt="Instalacija"></p>
+<p>Your default web browser pops up and displays a page that looks like this:</p>
+<p><img src="pics/inst14.jpg" alt="instalacija"></p>
+<p>You can now click each of the links to run the notebook in a new tab. Switch to the tab that contains the notebook and execute it step by step.</p>
 
 </div>
 </div>
